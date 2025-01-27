@@ -55,6 +55,6 @@ lookalike_df = pd.DataFrame({
     'CustomerID': list(lookalike_results.keys()),
     'Lookalikes': [str(value) for value in lookalike_results.values()]
 })
-lookalike_df.to_csv('Lookalike.csv', index=False)
+lookalike_df.to_csv('Harshit_Dhage_Lookalike.csv', index=False)
 
 print("Lookalike recommendations saved to Lookalike.csv")
